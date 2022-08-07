@@ -1,0 +1,15 @@
+#title{
+  background-color: #F2F2F2 ;
+}
+
+
+.header_text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
