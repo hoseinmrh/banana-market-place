@@ -131,6 +131,7 @@ body{
 /*Pricing*/
 
 #pricing{
+    color: #383838;
   background-color: #F2F2F2;
   padding: 7% 15%;
 }
@@ -139,7 +140,7 @@ body{
   background-color: #CDBE78;
 }
 
-.row{
+.card-row{
   text-align: center;
   font-family: 'Montserrat';
 }
@@ -175,4 +176,23 @@ body{
   font-weight: bold;
 }
 
-/*Footer*/
+/*CTA*/
+
+#cta{
+  background-color: #CDBE78;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-text{
+  color: #383838;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.cta_download_btn{
+  margin: 0 3% 0 0;
+}
