@@ -91,3 +91,35 @@ body{
 .features-icon:hover{
   color: #383838;
 }
+
+/*Testimonials*/
+
+#testimonials{
+
+  text-align: center;
+  background-color: #CDBE78;
+  color: #383838;
+}
+
+.test_text{
+  font-family: "Ubuntu";
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.testimonial_img{
+  width: 15%;
+  border-radius: 100%;
+  margin-right:20px;
+}
+.slide_show{
+  position: relative;
+}
+.slide_show_indic{
+  margin-left: 50px;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
