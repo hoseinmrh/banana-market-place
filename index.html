@@ -16,11 +16,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans&family=Ubuntu&display=swap" rel="stylesheet">
 
+  <link rel="icon" href="favicon.ico">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
 <body>
   <section id="title">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Banana</a>
+        <a class="navbar-brand site_name" href="#">Banana</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,36 +44,49 @@
           </ul>
         </div>
       </nav>
+      <div class="header_box">
 
-      <div class="row">
-        <div class="col-lg-6">
-          <div>
-            <h1 class="header_text">Meet new bananas and buy them easily!</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <h1 class="header_text">Meet new bananas and buy them EASILY!</h1>
+              <button type="button" class="btn btn-dark btn-lg donwlod-btn"><i class="fab fa-apple"></i> Download</button>
+              <button type="button" class="btn btn-outline-light btn-lg donwlod-btn"><i class="fab fa-google-play"></i> Download</button>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-6">
-          <div>
-            <img src="images/banana_clipart.png" alt="banana">
+          <div class="col-lg-6">
+            <div class="image_div">
+              <img src="images/banana_app.png" alt="banana" class="phone_image">
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- Features -->
 
   <section id="features">
+    <div class="row">
+      <div class="features_item col-lg-4">
+        <i class="features-icon fas fa-check fa-4x"></i>
+        <h3 class="feature_title">Easy to use.</h3>
+        <p class="features-exp">So easy to use, even your baby who loves banana can do it.</p>
+      </div>
+      <div class="features_item col-lg-4">
+        <i class="features-icon fas fa-heart fa-4x"></i>
+        <h3 class="feature_title">Great Variety.</h3>
+        <p class="features-exp">You can find bananas in any shapes, colors and size.</p>
+      </div>
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your baby who loves banana can do it.</p>
+      <div class="features_item col-lg-4">
+        <i class="features-icon fas fa-dollar-sign fa-4x"></i>
+        <h3 class="feature_title">Lowest Price</h3>
+        <p class="features-exp">We have best bananas with lowest price in the market.</p>
 
-    <h3>Great Variety.</h3>
-    <p>You can find bananas in any shapes, colors and size.</p>
-
-    <h3>Lowest Price</h3>
-    <p>We have best bananas with lowest price in the market.</p>
+      </div>
+    </div>
 
   </section>
 

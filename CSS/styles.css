@@ -1,5 +1,11 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 #title{
-  background-color: #F2F2F2 ;
+  background-color: #CDBE78 ;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 
@@ -11,5 +17,77 @@
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding-top: 3%;
+}
+
+.image_div{
+  text-align: center;
+}
+
+.phone_image{
+  width: 50%;
+  transform: rotate(20deg);
+  padding-bottom: 30px;
+}
+
+.header_box{
+  margin-top: 30px;
+}
+
+.navbar{
+  margin-left: -16px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.donwlod-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/*Features*/
+
+#features{
+  background-color: #F2F2F2;
+  padding: 7% 15%;
+
+}
+
+.features_item{
+
+  text-align: center;
+  padding: 5%;
+}
+
+.features-exp{
+  font-family:"Ubuntu";
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #8f8f8f;
+}
+
+.feature_title{
+  font-family: 'Montserrat';
+  padding-top: 10px;
+  font-weight: 800;
+    color: #CDBE78;
+}
+
+.features-icon{
+  color: #CDBE78;
+}
+
+.features-icon:hover{
+  color: #383838;
 }
