@@ -155,14 +155,6 @@ body{
   }
 }
 
-.card{
-  position: relative;
-}
-
-.signup_btn{
-  position: relative;
-  top: 40px;
-}
 
 .pricing-text{
   text-align: center;
@@ -195,4 +187,30 @@ body{
 
 .cta_download_btn{
   margin: 0 3% 0 0;
+}
+
+/*footer*/
+#footer{
+  background-color: #F2F2F2;
+  text-align: center;
+  padding: 3% 15% 3% 15%;
+}
+
+.social-logo{
+  color: #383838;
+  margin-left: 35px;
+}
+.social-logo:hover{
+  color: #CDBE78;
+}
+
+.footer-text{
+  color:#383838;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.footer-text:hover{
+    color: #CDBE78;
 }
