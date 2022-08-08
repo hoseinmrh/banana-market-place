@@ -18,13 +18,16 @@ body{
 
 .container-fluid{
   padding-top: 3%;
+  padding-bottom: 7%;
 }
 
 .image_div{
-  text-align: center;
+  position: relative;
 }
 
 .phone_image{
+  position: absolute;
+  right: 130px;
   width: 50%;
   transform: rotate(20deg);
   padding-bottom: 30px;
@@ -59,13 +62,14 @@ body{
 /*Features*/
 
 #features{
+  z-index: 1;
+  position: relative;
   background-color: #F2F2F2;
   padding: 7% 15%;
 
 }
 
 .features_item{
-
   text-align: center;
   padding: 5%;
 }
@@ -123,3 +127,52 @@ body{
 .carousel-item{
     padding: 5% 15%;
 }
+
+/*Pricing*/
+
+#pricing{
+  background-color: #F2F2F2;
+  padding: 7% 15%;
+}
+
+.card_head_color{
+  background-color: #CDBE78;
+}
+
+.row{
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+@media (max-width: 1008px) {
+  .phone_image{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+.card{
+  position: relative;
+}
+
+.signup_btn{
+  position: relative;
+  top: 40px;
+}
+
+.pricing-text{
+  text-align: center;
+    font-family: "Ubuntu";
+    padding-bottom: 50px;
+    line-height: 2.5;
+}
+
+.pricing-main-text{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/*Footer*/
