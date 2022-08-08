@@ -1,5 +1,18 @@
+/* HTML TAGS*/
+
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+/*Title section*/
+@media (max-width: 1008px) {
+  .phone_image{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
 }
 
 #title{
@@ -145,15 +158,6 @@ body{
   font-family: 'Montserrat';
 }
 
-@media (max-width: 1008px) {
-  .phone_image{
-    position: static;
-    transform: rotate(0deg);
-  }
-  #title{
-    text-align: center;
-  }
-}
 
 
 .pricing-text{
@@ -189,7 +193,7 @@ body{
   margin: 0 3% 0 0;
 }
 
-/*footer*/
+/* FOOTER */
 #footer{
   background-color: #F2F2F2;
   text-align: center;
